@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vimwiki on Daria&#39;s webpage</title>
+    <link>https://dariakisielewska.github.io/tags/vimwiki/</link>
+    <description>Recent content in vimwiki on Daria&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dariakisielewska.github.io/tags/vimwiki/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple notes inside the terminal</title>
+      <link>https://dariakisielewska.github.io/note/vim/taking_notes/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/vim/taking_notes/</guid>
+      <description>Vimwiki allows to create notes in a terminal.
+Remember to configure vim (.vimrc):
+let g:vimwiki_list = [{&amp;#39;path&amp;#39;: &amp;#39;path_to_notes/&amp;#39;, \ &amp;#39;syntax&amp;#39;: &amp;#39;markdown&amp;#39;, &amp;#39;ext&amp;#39;: &amp;#39;.md&amp;#39;}]  For easier navigation customize vim browser source
+let g:netrw_banner = 0 let g:netrw_liststyle = 3 let g:netrw_browse_split = 4 let g:netrw_altv = 1 let g:netrw_winsize = 20 augroup ProjectDrawer autocmd! autocmd VimEnter * :Vexplore augroup END </description>
+    </item>
+    
+  </channel>
+</rss>

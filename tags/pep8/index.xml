@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pep8 on Daria&#39;s webpage</title>
+    <link>https://dariakisielewska.github.io/tags/pep8/</link>
+    <description>Recent content in pep8 on Daria&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dariakisielewska.github.io/tags/pep8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vim for python</title>
+      <link>https://dariakisielewska.github.io/note/python/vim_for_python/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/vim_for_python/</guid>
+      <description>Make vim compatybile with PEP8 standard:
+au BufNewFile, BufRead *.py \ set tabstop=4 | \ set softtabstop=4 | \ set shiftwidth=4 | \ set textwidth=79 | \ set expandtab | \ set autoindent | \ set fileformat=unix  Plugins:
+ YouCompleteMe vim-flake8 static code checks syntastic check syntax  Configuration:
+&amp;quot; YCM let g:ycm_autoclose_preview_window_after_completion=1 &amp;quot; syntastic set statusline+=%#warningmsg# set statusline+=%{SyntasticStatuslineFlag()} set statusline+=%* let g:syntastic_loc_list_height=5 let g:syntastic_always_populate_loc_list = 1 let g:syntastic_auto_loc_list = 1 let g:syntastic_check_on_open = 1 let g:syntastic_check_on_wq = 0 &amp;quot;general let python_highlight_all=1 syntax on </description>
+    </item>
+    
+  </channel>
+</rss>

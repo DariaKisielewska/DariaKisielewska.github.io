@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pytest on Daria&#39;s webpage</title>
+    <link>https://dariakisielewska.github.io/tags/pytest/</link>
+    <description>Recent content in pytest on Daria&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dariakisielewska.github.io/tags/pytest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing with pytest</title>
+      <link>https://dariakisielewska.github.io/note/python/testing_python/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/testing_python/</guid>
+      <description>Naming convention Naming for tested components:
+ files: test_XXX.py or XXX_test.py methods and functions: test_XXX class: TestXXX  How to run?  single test: pytest path/test_XXX.py::test_YYY test from directory: pytest path test from file: pytest path/test_XXX.py test class (TestYYY): pytest path/test_XXX.py::TestYYY test method from class pytest path/test_XXX.py::TestYYY::test_ZZZ  run selected tests: pytest -k &#34;expression&#34;
+Markers Marking:
+ grup of tests  @pytest.mark.on_my_mark useful for running selected set of tests pytest -m &#39;on_my_mark&#39; skipping test  @pytest.</description>
+    </item>
+    
+  </channel>
+</rss>

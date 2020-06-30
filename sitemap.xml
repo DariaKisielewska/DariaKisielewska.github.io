@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/project/jpet/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/project/kloe/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/</loc>
+    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/python/documentation/</loc>
+    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/</loc>
+    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/python/</loc>
+    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/sphinx/</loc>
+    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/</loc>
+    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/sqlalchemy/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/sql/sqlalchemy/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/pep8/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/python/program_structure/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/vim/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/python/vim_for_python/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/python/virtualenv/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/virtualenv/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/python/elasticsearch/</loc>
+    <lastmod>2020-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/elasticsearch/</loc>
+    <lastmod>2020-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/vim/taking_notes/</loc>
+    <lastmod>2020-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/vimwiki/</loc>
+    <lastmod>2020-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/pytest/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/python/testing_python/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/hugo/</loc>
+    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/latex/</loc>
+    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/note/hugo/latex/</loc>
+    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/c&#43;&#43;/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/fortran/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/geant4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/jpet/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/kloe/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/tags/phd/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/project/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dariakisielewska.github.io/links/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Testing with pytest</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #246BCE;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://dariakisielewska.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c&#43;&#43;.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/mathematica.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.69.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Testing with pytest</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/note/">Notes</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                                <li><a href="/links/">Links</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:dk.dariakisielewska@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/DariaKisielewska/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/dariakisielewska/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<style>
+.content{
+   text-align: justify;
+}
+</style>
+
+
+<main>
+    <div>
+        <h2>Testing with pytest</h2>
+        <h5>June 2, 2020</h5>
+        
+<a href="https://dariakisielewska.github.iotags/python"><kbd class="item-tag">python</kbd></a>
+
+<a href="https://dariakisielewska.github.iotags/pytest"><kbd class="item-tag">pytest</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><h3 id="naming-convention">Naming convention</h3>
+<p>Naming for tested components:</p>
+<ul>
+<li>files: <code>test_XXX.py</code> or <code>XXX_test.py</code></li>
+<li>methods and functions: <code>test_XXX</code></li>
+<li>class: <code>TestXXX</code></li>
+</ul>
+<h3 id="how-to-run">How to run?</h3>
+<ul>
+<li>single test: <code>pytest path/test_XXX.py::test_YYY</code></li>
+<li>test from directory: <code>pytest path</code></li>
+<li>test from file: <code>pytest path/test_XXX.py</code></li>
+<li>test class (TestYYY): <code>pytest path/test_XXX.py::TestYYY</code></li>
+<li>test method from class <code>pytest path/test_XXX.py::TestYYY::test_ZZZ</code></li>
+</ul>
+<p>run selected tests: <code>pytest -k "expression"</code></p>
+<h3 id="markers">Markers</h3>
+<p>Marking:</p>
+<ul>
+<li>grup of tests <br/> <code>@pytest.mark.on_my_mark</code> useful for running selected set of tests <code>pytest -m 'on_my_mark'</code></li>
+<li>skipping test <br/> <code>@pytest.mark.skip (reason ='not implemented')</code></li>
+<li>tests to fail <br/> <code>@pytest.mark.xfail()</code></li>
+</ul>
+<h3 id="checking-for-errors">Checking for errors</h3>
+<p>In a testing function add:</p>
+<pre><code>with pytest.raises(ExpectedError): 
+        function_raising_error()</code></pre>
+<h3 id="parametrize-testing">Parametrize testing</h3>
+<p><code>@pytest.mark.parametrize(argnames, argvalues, label)</code> calls a test with a multiple data sets. Improve task readability by adding proper label.</p>
+<h3 id="fixture">Fixture</h3>
+<p>The <span class="citation" data-cites="pytest.fixture">@pytest.fixture</span>() decorator tells Python to run provided function before (or after) the actual test function.</p>
+<p>File conftest.py allows to share fixtures between different test files.</p>
+<p><code>pytest --setup-show</code> allow to follow the execution of defined features</p>
+<p>Useful parameter <code>@pytest.fixture()</code>:</p>
+<ul>
+<li>scope= ‘function’/‘class’/‘module’/‘session’</li>
+<li>autouse= True // all the sessions will use the fixture automatically; its executed first<br />
+</li>
+<li>name= ‘sth’ // test functions can use ‘sth’ instead of a function name</li>
+<li>params // allows to parametrize fixtures instead of the test itself, try to combine with command</li>
+<li>ids= identifier or function to obtain better readability of the test summary</li>
+</ul>
+<h3 id="monkey-patching-and-mocking">Monkey patching and Mocking</h3>
+<p>The mocker fixture is provided by the pytest-mock as a convenience interface to unittest.mock.</p>
+<ul>
+<li><a href="https://codefellows.github.io/sea-python-401d7/lectures/mock.html">Codefellows lecture</a></li>
+<li><a href="https://docs.pytest.org/en/latest/monkeypatch.html">Pytest monkeypath</a></li>
+</ul>
+<p>The monkeypatch is a dynamic modification of a module or class. Following functions are provided:</p>
+<ul>
+<li>monkeypatch.setattr(obj, name, value, raising=True)</li>
+<li>monkeypatch.delattr(obj, name, raising=True)</li>
+<li>monkeypatch.setitem(mapping, name, value)</li>
+<li>monkeypatch.delitem(obj, name, raising=True)</li>
+<li>monkeypatch.setenv(name, value, prepend=False)</li>
+<li>monkeypatch.delenv(name, raising=True)</li>
+<li>monkeypatch.syspath_prepend(path)</li>
+<li>monkeypatch.chdir(path)</li>
+</ul>
+<h3 id="checking-documentation">Checking documentation</h3>
+<p>In documentation one can include code. This is represented by <code>&gt;&gt;&gt;</code>. Pytest allows to check those commands by running:</p>
+<p><code>pytest --doctest-modules</code></p>
+<p>The build-in fixture doctest_namespace allows to provide necessary import functions.</p>
+<p>For example, adding <code>import pandas as pd</code> requires adding to a top-level conftest.py file:</p>
+<pre><code>@pytest.fixture(autouse=True)
+def add_namespace(doctest_namespace):
+        doctest_namespace[&#39;pd&#39;] = pandas</code></pre>
+<p>The doctest_namespace feature returning a dict that will be injected into the namespace of doctests.</p>
+<h3 id="configuration-files">Configuration files</h3>
+<p><a href="https://docs.pytest.org/en/latest/customize.html">Pytest documentation</a></p>
+<p>Basic configuration for pytest.ini:</p>
+<pre><code>[pytest]
+addopts = -rsxX -l --tb=short --strict
+testpaths =   
+norecursedirs =   
+markers =  </code></pre>
+<p>Registering markers (with –strict option) allows to avoid simple misspelling mistakes.</p>
+<h3 id="worth-to-read">Worth to read:</h3>
+<ul>
+<li>Brian Okken, ‘’Python Testing with pytest’’</li>
+</ul>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

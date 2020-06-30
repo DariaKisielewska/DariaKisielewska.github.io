@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sphinx on Daria&#39;s webpage</title>
+    <link>https://dariakisielewska.github.io/tags/sphinx/</link>
+    <description>Recent content in sphinx on Daria&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dariakisielewska.github.io/tags/sphinx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Documentation in Sphinx</title>
+      <link>https://dariakisielewska.github.io/note/python/documentation/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/documentation/</guid>
+      <description>Goal Set-up Sphinx as a documentation engine for the project. Instead of visually dense reStructuredText let’s use Google docstring. Support for this function is provided by sphinx.ext.napoleon extension.
+At the end, substitute the standard theme by sphinx-rtd-theme.
+Install pre-requisites python3.8 -m pip install sphinx sphinxcontrib-napoleon sphinx-rtd-theme Set-up documentation cd projectdir mkdir docs cd docs sphinx-quickstart  sphinx-quickstart asks for basics information about the project. Keep sources and build directories separate.</description>
+    </item>
+    
+  </channel>
+</rss>

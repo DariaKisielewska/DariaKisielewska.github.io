@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQLAlchemy on Daria&#39;s webpage</title>
+    <link>https://dariakisielewska.github.io/tags/sqlalchemy/</link>
+    <description>Recent content in SQLAlchemy on Daria&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dariakisielewska.github.io/tags/sqlalchemy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SQLAlchemy</title>
+      <link>https://dariakisielewska.github.io/note/sql/sqlalchemy/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/sql/sqlalchemy/</guid>
+      <description>What is ORM? ORM = Object Relational Database. SQLAlchemy is connecting Python classes to tables on relational database.
+Remember to load data into database with bulk operations
+Further reading  Pandas and SQLAlchemy different implementations of marriage between Pandas and SQLAlchemy Why ORM is slow?  </description>
+    </item>
+    
+  </channel>
+</rss>

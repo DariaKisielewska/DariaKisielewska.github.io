@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>virtualenv on Daria&#39;s webpage</title>
+    <link>https://dariakisielewska.github.io/tags/virtualenv/</link>
+    <description>Recent content in virtualenv on Daria&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dariakisielewska.github.io/tags/virtualenv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Virtual environment</title>
+      <link>https://dariakisielewska.github.io/note/python/virtualenv/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/virtualenv/</guid>
+      <description>Why? Virtual environment keeps dependencies required in different projects in separate places. This solution make easier to maintain different projects.
+How? Installation (for Fedora otherwise use pip):
+sudo yum install python-virtualenv Creating new env:
+virtualenv -p /path/to/a/python.exe /path/to/env_name Activating:
+source /path/to/env_name/bin/activate After finishing the project
+deactivate Where to store virtual environments?  with the project (add folder to the .gitignore)
+ in home directory. Then you can control them by virtualenvwrapper</description>
+    </item>
+    
+  </channel>
+</rss>

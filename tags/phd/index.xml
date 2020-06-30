@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PhD on Daria&#39;s webpage</title>
+    <link>https://dariakisielewska.github.io/tags/phd/</link>
+    <description>Recent content in PhD on Daria&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://dariakisielewska.github.io/tags/phd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>J-PET MC</title>
+      <link>https://dariakisielewska.github.io/project/jpet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/project/jpet/</guid>
+      <description>The Jagiellonian Positron Emission Tomograph (J-PET) is a cylindrically shaped detector built from plastic scintillators. The novel concept of using plastic polymers in place of conventional crystal scintillators was announced in 2009. Replacing the series of expensive scintillator crystals along the z axis by a single plastic scintillator strip allows to reduce the price of the whole device as well as the complexity of the readout system. This solution enables to build a device from larger scintillators resulting in greater field of view (FOV) and usage of the time of flight (TOF) technique, which significantly improves the resolution of the tomographic image.</description>
+    </item>
+    
+    <item>
+      <title>KLOE</title>
+      <link>https://dariakisielewska.github.io/project/kloe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/project/kloe/</guid>
+      <description>I was searching for possible CPT symmetry violation in the neutral kaon system. The performed test is based on comparison between semileptonic asymmetry in \(K_S\) decays: \[\begin{equation} A_{S} = \frac{\Gamma(K_S \rightarrow \pi^- e^+ \nu) - \Gamma(K_S \rightarrow \pi^+ e^- \bar{\nu})} {\Gamma(K_S \rightarrow \pi^- e^+ \nu) + \Gamma(K_S \rightarrow \pi^+ e^- \bar{\nu})}, \end{equation}\] and its counterpart \(A_L\) constructed for \(K_L\). To date, the most precise measurement of \(A_L\) has been preformed by the KTeV collaboration: \(A_L = (3.</description>
+    </item>
+    
+  </channel>
+</rss>

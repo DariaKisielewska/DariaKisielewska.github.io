@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>latex on Daria&#39;s webpage</title>
+    <link>https://dariakisielewska.github.io/tags/latex/</link>
+    <description>Recent content in latex on Daria&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dariakisielewska.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Render LaTeX</title>
+      <link>https://dariakisielewska.github.io/note/hugo/latex/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/hugo/latex/</guid>
+      <description>In-line LateX did not generate properly on the webpage. Switching Markdown handler in Hugo was the fastest solution.
+Install pandoc In config.toml add:   [markup] defaultMarkdownHandler = &amp;#39;pandoc&amp;#39; </description>
+    </item>
+    
+  </channel>
+</rss>

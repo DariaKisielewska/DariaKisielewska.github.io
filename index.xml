@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daria&#39;s webpage</title>
+    <link>https://dariakisielewska.github.io/</link>
+    <description>Recent content on Daria&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dariakisielewska.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>J-PET MC</title>
+      <link>https://dariakisielewska.github.io/project/jpet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/project/jpet/</guid>
+      <description>The Jagiellonian Positron Emission Tomograph (J-PET) is a cylindrically shaped detector built from plastic scintillators. The novel concept of using plastic polymers in place of conventional crystal scintillators was announced in 2009. Replacing the series of expensive scintillator crystals along the z axis by a single plastic scintillator strip allows to reduce the price of the whole device as well as the complexity of the readout system. This solution enables to build a device from larger scintillators resulting in greater field of view (FOV) and usage of the time of flight (TOF) technique, which significantly improves the resolution of the tomographic image.</description>
+    </item>
+    
+    <item>
+      <title>KLOE</title>
+      <link>https://dariakisielewska.github.io/project/kloe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/project/kloe/</guid>
+      <description>I was searching for possible CPT symmetry violation in the neutral kaon system. The performed test is based on comparison between semileptonic asymmetry in \(K_S\) decays: \[\begin{equation} A_{S} = \frac{\Gamma(K_S \rightarrow \pi^- e^+ \nu) - \Gamma(K_S \rightarrow \pi^+ e^- \bar{\nu})} {\Gamma(K_S \rightarrow \pi^- e^+ \nu) + \Gamma(K_S \rightarrow \pi^+ e^- \bar{\nu})}, \end{equation}\] and its counterpart \(A_L\) constructed for \(K_L\). To date, the most precise measurement of \(A_L\) has been preformed by the KTeV collaboration: \(A_L = (3.</description>
+    </item>
+    
+    <item>
+      <title>Documentation in Sphinx</title>
+      <link>https://dariakisielewska.github.io/note/python/documentation/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/documentation/</guid>
+      <description>Goal Set-up Sphinx as a documentation engine for the project. Instead of visually dense reStructuredText let’s use Google docstring. Support for this function is provided by sphinx.ext.napoleon extension.
+At the end, substitute the standard theme by sphinx-rtd-theme.
+Install pre-requisites python3.8 -m pip install sphinx sphinxcontrib-napoleon sphinx-rtd-theme Set-up documentation cd projectdir mkdir docs cd docs sphinx-quickstart  sphinx-quickstart asks for basics information about the project. Keep sources and build directories separate.</description>
+    </item>
+    
+    <item>
+      <title>SQLAlchemy</title>
+      <link>https://dariakisielewska.github.io/note/sql/sqlalchemy/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/sql/sqlalchemy/</guid>
+      <description>What is ORM? ORM = Object Relational Database. SQLAlchemy is connecting Python classes to tables on relational database.
+Remember to load data into database with bulk operations
+Further reading  Pandas and SQLAlchemy different implementations of marriage between Pandas and SQLAlchemy Why ORM is slow?  </description>
+    </item>
+    
+    <item>
+      <title>Project structure</title>
+      <link>https://dariakisielewska.github.io/note/python/program_structure/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/program_structure/</guid>
+      <description>General description:
+The Hitchhiker’s guide
+Fast organization provides Cookiecutter
+For data science project see Cookiecutter Data Science</description>
+    </item>
+    
+    <item>
+      <title>Vim for python</title>
+      <link>https://dariakisielewska.github.io/note/python/vim_for_python/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/vim_for_python/</guid>
+      <description>Make vim compatybile with PEP8 standard:
+au BufNewFile, BufRead *.py \ set tabstop=4 | \ set softtabstop=4 | \ set shiftwidth=4 | \ set textwidth=79 | \ set expandtab | \ set autoindent | \ set fileformat=unix  Plugins:
+ YouCompleteMe vim-flake8 static code checks syntastic check syntax  Configuration:
+&amp;quot; YCM let g:ycm_autoclose_preview_window_after_completion=1 &amp;quot; syntastic set statusline+=%#warningmsg# set statusline+=%{SyntasticStatuslineFlag()} set statusline+=%* let g:syntastic_loc_list_height=5 let g:syntastic_always_populate_loc_list = 1 let g:syntastic_auto_loc_list = 1 let g:syntastic_check_on_open = 1 let g:syntastic_check_on_wq = 0 &amp;quot;general let python_highlight_all=1 syntax on </description>
+    </item>
+    
+    <item>
+      <title>Virtual environment</title>
+      <link>https://dariakisielewska.github.io/note/python/virtualenv/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/virtualenv/</guid>
+      <description>Why? Virtual environment keeps dependencies required in different projects in separate places. This solution make easier to maintain different projects.
+How? Installation (for Fedora otherwise use pip):
+sudo yum install python-virtualenv Creating new env:
+virtualenv -p /path/to/a/python.exe /path/to/env_name Activating:
+source /path/to/env_name/bin/activate After finishing the project
+deactivate Where to store virtual environments?  with the project (add folder to the .gitignore)
+ in home directory. Then you can control them by virtualenvwrapper</description>
+    </item>
+    
+    <item>
+      <title>Elasticsearch</title>
+      <link>https://dariakisielewska.github.io/note/python/elasticsearch/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/elasticsearch/</guid>
+      <description>Python high-level library that allows to use Elasticsearch: elasticsearch-dsl
+The elasticsearch-dsl provide a usage of classes while writing/reading from elastic.
+The bulk upload still needs to be handled through json format (usually Object.to_dict(include_meta=True) is sufficient) provided by elasticsearch.helpers.
+See Patric’s post showing a neat example of elastic usage.</description>
+    </item>
+    
+    <item>
+      <title>Simple notes inside the terminal</title>
+      <link>https://dariakisielewska.github.io/note/vim/taking_notes/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/vim/taking_notes/</guid>
+      <description>Vimwiki allows to create notes in a terminal.
+Remember to configure vim (.vimrc):
+let g:vimwiki_list = [{&amp;#39;path&amp;#39;: &amp;#39;path_to_notes/&amp;#39;, \ &amp;#39;syntax&amp;#39;: &amp;#39;markdown&amp;#39;, &amp;#39;ext&amp;#39;: &amp;#39;.md&amp;#39;}]  For easier navigation customize vim browser source
+let g:netrw_banner = 0 let g:netrw_liststyle = 3 let g:netrw_browse_split = 4 let g:netrw_altv = 1 let g:netrw_winsize = 20 augroup ProjectDrawer autocmd! autocmd VimEnter * :Vexplore augroup END </description>
+    </item>
+    
+    <item>
+      <title>Testing with pytest</title>
+      <link>https://dariakisielewska.github.io/note/python/testing_python/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/python/testing_python/</guid>
+      <description>Naming convention Naming for tested components:
+ files: test_XXX.py or XXX_test.py methods and functions: test_XXX class: TestXXX  How to run?  single test: pytest path/test_XXX.py::test_YYY test from directory: pytest path test from file: pytest path/test_XXX.py test class (TestYYY): pytest path/test_XXX.py::TestYYY test method from class pytest path/test_XXX.py::TestYYY::test_ZZZ  run selected tests: pytest -k &#34;expression&#34;
+Markers Marking:
+ grup of tests  @pytest.mark.on_my_mark useful for running selected set of tests pytest -m &#39;on_my_mark&#39; skipping test  @pytest.</description>
+    </item>
+    
+    <item>
+      <title>Render LaTeX</title>
+      <link>https://dariakisielewska.github.io/note/hugo/latex/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/note/hugo/latex/</guid>
+      <description>In-line LateX did not generate properly on the webpage. Switching Markdown handler in Hugo was the fastest solution.
+Install pandoc In config.toml add:   [markup] defaultMarkdownHandler = &amp;#39;pandoc&amp;#39; </description>
+    </item>
+    
+    <item>
+      <title>Hi! I&#39;m Daria</title>
+      <link>https://dariakisielewska.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/about/</guid>
+      <description>I’m aspiring data scientist. I am pragmatic and enjoy the process of understanding how things work. I see this process as an unique mixture of solving riddles and using standard frameworks that allow you to approach the correct answer. Therefore, I studied physics and it allowed me to contribute (see definition here:) to the topic of discrete symmetries in particle physics. In 2019, I received my PhD degree in Physics from the Jagiellonian University in Krakow, Poland.</description>
+    </item>
+    
+    <item>
+      <title>Useful links</title>
+      <link>https://dariakisielewska.github.io/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dariakisielewska.github.io/links/</guid>
+      <description>General 80000 hours
+AI podcast
+C++ Fluent CPP</description>
+    </item>
+    
+  </channel>
+</rss>
